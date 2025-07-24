@@ -1,4 +1,9 @@
+# DISCLAIMER
+
+this shit is completely vibed
+
 # Quebec Immigration Points Calculator
+
 
 A web application for calculating immigration points for the Quebec Skilled Worker Program based on official government regulations (85952.pdf and 86001.pdf from 2025).
 
