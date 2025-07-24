@@ -1,6 +1,6 @@
 {
   "buildCommand": "turbo run build --filter=@ptsq-calculator/frontend",
-  "outputDirectory": "packages/frontend/dist",
+  "outputDirectory": "dist",
   "installCommand": "pnpm install",
   "framework": "vite"
 }
