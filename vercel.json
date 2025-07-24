@@ -1,0 +1,8 @@
+{
+  "buildCommand": "turbo run build --filter=@ptsq-calculator/frontend",
+  "outputDirectory": "packages/frontend/dist",
+  "installCommand": "pnpm install",
+  "framework": "vite",
+  "rootDirectory": "packages/frontend",
+  "ignoreCommand": "npx turbo-ignore --fallback=HEAD^1"
+}
