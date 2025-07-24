@@ -1,0 +1,111 @@
+# Page snapshot
+
+```yaml
+- text: "Capital Human: 120 Labour Market: 0 Adaptation: 0 Total: 120 / 1400"
+- banner:
+  - heading "Quebec Immigration Points Calculator" [level=1]
+  - paragraph: Calculate your points for the Quebec Skilled Worker Program
+- main:
+  - checkbox "I am applying with a spouse or common-law partner"
+  - text: I am applying with a spouse or common-law partner
+  - heading "Applicant Information" [level=2]
+  - text: Age
+  - spinbutton "Age": "30"
+  - text: Education Level
+  - combobox "Education Level":
+    - option "No formal education" [selected]
+    - option "Completed general secondary"
+    - option "Professional secondary 600-899 hours (Quebec)"
+    - option "Professional secondary 900+ hours (Quebec)"
+    - option "Professional secondary 1+ years (non-Quebec)"
+    - option "Postsecondary general 2 years"
+    - option "Postsecondary technical 900+ hours (Quebec)"
+    - option "Postsecondary technical 1-2 years (non-Quebec)"
+    - option "Postsecondary technical 3 years"
+    - option "University 1st cycle 1 year"
+    - option "University 1st cycle 2 years"
+    - option "University 1st cycle 3-4 years"
+    - option "University 1st cycle 5+ years"
+    - option "University 2nd cycle 1 year"
+    - option "University 2nd cycle 2+ years"
+    - option "Medical specialization 2+ years"
+    - option "University 3rd cycle"
+  - text: Work Experience (months, last 5 years)
+  - spinbutton "Work Experience (months, last 5 years)": "0"
+  - group "French Language Knowledge":
+    - text: French Language Knowledge Oral Comprehension (Level 1-12)
+    - spinbutton "Oral Comprehension (Level 1-12)": "1"
+    - text: Oral Production (Level 1-12)
+    - spinbutton "Oral Production (Level 1-12)": "1"
+    - text: Written Comprehension (Level 1-12)
+    - spinbutton "Written Comprehension (Level 1-12)": "1"
+    - text: Written Production (Level 1-12)
+    - spinbutton "Written Production (Level 1-12)": "1"
+  - text: Labour Market Diagnosis
+  - combobox "Labour Market Diagnosis":
+    - option "Balanced or no diagnosis" [selected]
+    - option "Slight shortage"
+    - option "Shortage"
+  - text: Work Experience in Principal Profession (months)
+  - spinbutton "Work Experience in Principal Profession (months)": "0"
+  - text: Quebec Diploma (if applicable)
+  - combobox "Quebec Diploma (if applicable)":
+    - option "None" [selected]
+    - option "Completed general secondary"
+    - option "Professional secondary 600-899 hours"
+    - option "Professional secondary 900+ hours"
+    - option "Postsecondary general 2 years"
+    - option "Postsecondary technical 900+ hours"
+    - option "Postsecondary technical 3 years"
+    - option "University 1st cycle 1 year"
+    - option "University 1st cycle 2 years"
+    - option "University 1st cycle 3-4 years"
+    - option "University 1st cycle 5+ years"
+    - option "University 2nd cycle 1 year"
+    - option "University 2nd cycle 2+ years"
+    - option "Medical specialization 2+ years"
+    - option "University 3rd cycle"
+  - text: Work Experience in Quebec (months, last 5 years)
+  - spinbutton "Work Experience in Quebec (months, last 5 years)": "0"
+  - text: Residence Outside Montreal (months)
+  - spinbutton "Residence Outside Montreal (months)": "0"
+  - text: Validated Job Offer
+  - combobox "Validated Job Offer":
+    - option "No job offer" [selected]
+    - option "Inside Montreal Metropolitan Community"
+    - option "Outside Montreal Metropolitan Community"
+  - checkbox "Authorization to practice profession or recognition of diplomas"
+  - text: Authorization to practice profession or recognition of diplomas Study Stay in Quebec - Completed (months)
+  - spinbutton "Study Stay in Quebec - Completed (months)": "0"
+  - text: Study Stay in Quebec - Ongoing (months)
+  - spinbutton "Study Stay in Quebec - Ongoing (months)": "0"
+  - checkbox "I have a family member in Quebec (18+, citizen/PR)"
+  - text: I have a family member in Quebec (18+, citizen/PR)
+  - checkbox "I intend to reside outside Montreal Metropolitan Community"
+  - text: I intend to reside outside Montreal Metropolitan Community
+  - heading "Detailed Breakdown" [level=2]
+  - heading "Total Points" [level=3]
+  - text: 120 out of 1400
+  - heading "Capital Human" [level=4]
+  - text: 120 / 520
+  - list:
+    - listitem: "French Knowledge: 0"
+    - listitem: "Age: 120"
+    - listitem: "Work Experience: 0"
+    - listitem: "Education Level: 0"
+  - heading "Labour Market Needs & Government Priorities" [level=4]
+  - text: 0 / 700
+  - list:
+    - listitem: "Labour Market Diagnosis: 0"
+    - listitem: "Quebec Diploma: 0"
+    - listitem: "Work Experience in Quebec: 0"
+    - listitem: "Residence Outside Montreal: 0"
+    - listitem: "Validated Job Offer: 0"
+    - listitem: "Authorization to Practice: 0"
+  - heading "Adaptation Factors" [level=4]
+  - text: 0 / 180
+  - list:
+    - listitem: "Study Stay (Completed): 0"
+    - listitem: "Study Stay (Ongoing): 0"
+    - listitem: "Family Member in Quebec: 0"
+```

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__taskmaster__initialize_project",
+      "mcp__taskmaster__parse_prd"
+    ],
+    "deny": []
+  }
+}

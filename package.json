@@ -1,0 +1,31 @@
+{
+  "name": "ptsq-calculator",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "lint:fix": "turbo lint:fix",
+    "type-check": "turbo type-check",
+    "test": "turbo test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^20.11.30",
+    "eslint": "^8.57.0",
+    "eslint-plugin-functional": "^6.0.0",
+    "prettier": "^3.2.5",
+    "turbo": "^2.0.6",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.3.1",
+    "vitest": "^1.4.0"
+  },
+  "packageManager": "pnpm@9.1.4",
+  "engines": {
+    "node": ">=20"
+  }
+}
